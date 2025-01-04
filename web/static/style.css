@@ -1,0 +1,115 @@
+body {
+  background-color: white;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReYkgCjLblq4CD9NFdlGkjrKloS8h-fNfnZg&s");
+  background-size: cover;
+  /* Ensures the image covers the entire screen */
+  background-position: center;
+  /* Centers the image */
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  margin: 0;
+  /* Removes default margin */
+  height: 100vh;
+  /* Ensures the body takes up the full height of the viewport */
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 20px;
+  /* Adds space at the top */
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #06f49c;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+
+  img {
+    margin: auto;
+  }
+
+  .img1 {
+    background-image: url("img_snow.jpg");
+  }
+
+  .img2 {
+    background-image: url("img_girl.jpg");
+  }
+
+  .img3 {
+    background-image: url("img_lights.jpg");
+  }
+
+  .img4 {
+    background-image: url("img_nature.jpg");
+  }
+
+  .img5 {
+    background-image: url("img_forest.jpg");
+  }
+
+  .img6 {
+    background-image: url("img_woods.jpg");
+  }
+}
