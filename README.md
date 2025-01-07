@@ -1,6 +1,5 @@
 1. # MpPulse - News Aggregator
 
-Demo link - https://jayeshmahawer.github.io/django-news-website/
 ## Overview
 MpPulse is a Django-based web application that aggregates news articles from various sources, specifically focusing on technology news from TechCrunch. The application provides a user-friendly interface to display the latest news articles along with their descriptions and images.
 
